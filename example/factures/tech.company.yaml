@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schemas/tag.schema.json
+
+id: "{cuid}"
+title: "Tech Company"
+shortDescription: "Tech Company"
