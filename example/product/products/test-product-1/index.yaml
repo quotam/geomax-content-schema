@@ -7,7 +7,7 @@ price: 29 # in Rub, >= price
 description: "This is a test product"
 
 facturer: "tech.company.yaml"
-groups:
+categories:
   - "tech.company.yaml"
 
 # Product images, just put image file names

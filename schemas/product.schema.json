@@ -30,7 +30,7 @@
     "facturer": {
       "type": "string"
     },
-    "groups": {
+    "categories": {
       "type": "array",
       "items": {
         "type": "string",
