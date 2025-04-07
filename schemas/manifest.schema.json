@@ -7,6 +7,18 @@
       "items": {
         "type": "string"
       }
+    },
+    "offers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     }
   },
   "additionalProperties": false,
