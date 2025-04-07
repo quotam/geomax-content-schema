@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schemas/faq.schema.json
+#
+
+faqs:
+  - id: "{cuid}"
+    question: What is this?
+    # Markdown is supported
+    answer: |
+      This is an example FAQ.
+
+  - id: "{cuid}"
+    question: What is this?
+    # Markdown is supported
+    answer: |
+      This is an example FAQ.
