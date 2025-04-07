@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=../schemas/slider.schema.json
+#
+
+slides:
+  - order: 1
+    # Markdown is supported
+    body: |
+      This is a slide.
