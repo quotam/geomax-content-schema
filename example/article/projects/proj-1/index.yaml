@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=../../../../schemas/article.schema.json
+#
+
+id: "{cuid}"
+
+title: "Test Product 1"
+date: "2022-01-01"
+description: "This is a test product"
+
+# Product images, just put image file names
+# any extension
+#
+# Example structure:
+#    .
+#   ├──  product.yaml
+#   ├──  test-product-1.png
+#   └──  test-product-2.jpg
+#
+thumbnail: "test-product-1.png"
+images:
+  - "test-product-1.png"
+  - "test-product-1-2.jpg"
+
+metaKeywords: "test product, best product ever" # using for SEO
+metaDescription: "This is a test product" # using for SEO
+
+videos:
+  - type: "youtube"
+    url: "https://www.youtube.com/watch?v=QH2-TGUlwu4"
+
+  - type: "rutube"
+    url: "https://www.rutube.com/."
+
+  - type: "tiktok"
+    url: "https://www.tiktok.com/@csw_/video/700000000000000130000"
+
+# Content in Markdown
+#
+body: |
+  **This is a test product
+  lorem ipsum dolor sit amet..

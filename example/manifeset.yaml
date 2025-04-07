@@ -1,5 +1,0 @@
-# yaml-language-server: $schema=../schemas/manifest.schema.json
-#
-
-products:
-  - "test-course-1"

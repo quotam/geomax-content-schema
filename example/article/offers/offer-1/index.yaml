@@ -1,14 +1,11 @@
-# yaml-language-server: $schema=../../../schemas/product.schema.json
+# yaml-language-server: $schema=../../../../schemas/article.schema.json
+#
 
 id: "{cuid}"
 
 title: "Test Product 1"
-price: 29 # in Rub, >= price
+date: "2022-01-01"
 description: "This is a test product"
-
-facturer: "tech.company.yaml"
-groups:
-  - "tech.company.yaml"
 
 # Product images, just put image file names
 # any extension
