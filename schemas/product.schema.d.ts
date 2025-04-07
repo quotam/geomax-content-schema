@@ -16,7 +16,7 @@ export interface Product {
   description: string;
   body: string;
   facturer?: string;
-  groups?: string[];
+  categories?: string[];
   thumbnail: string;
   images: string[];
   videos?: Video[];

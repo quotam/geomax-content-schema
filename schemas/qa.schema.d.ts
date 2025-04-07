@@ -7,10 +7,10 @@
 
 export type Cuid = string;
 
-export interface Faq {
-  faqs: Faq1[];
+export interface Qa {
+  faqs: Faq[];
 }
-export interface Faq1 {
+export interface Faq {
   id: Cuid;
   question: string;
   answer: string;
