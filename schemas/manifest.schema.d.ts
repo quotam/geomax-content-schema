@@ -7,4 +7,6 @@
 
 export interface Manifest {
   products: string[];
+  offers?: string[];
+  projects?: string[];
 }
