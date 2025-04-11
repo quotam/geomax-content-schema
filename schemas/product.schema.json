@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
-  "required": ["id", "title", "description", "body", "thumbnail", "images"],
+  "required": ["id", "title", "description", "body"],
   "additionalProperties": false,
   "properties": {
     "id": {
@@ -9,6 +9,10 @@
     },
     "metaDescription": {
       "type": "string"
+    },
+    "avability": {
+      "type": "boolean",
+      "$comment": "Есть в наличии"
     },
     "metaKeywords": {
       "type": "string"
